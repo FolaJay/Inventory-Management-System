@@ -132,7 +132,10 @@ div.box{
     margin-top:30px;
     margin-right:20px;
     margin-left:10px;
-
+}
+.saveButton:hover{
+    background-color:#338533;
+    color:#fff;
 }
 .cancelButton{
     border :none;
@@ -140,6 +143,8 @@ div.box{
     color:#fff;
     padding: 5px 15px;
     margin-top:30px;
-
-
+}
+.cancelButton:hover{
+    color:#fff;
+    background-color: #CE5C5C;
 }

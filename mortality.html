@@ -223,54 +223,60 @@
       <h2>Mortality</h2>
       <form>
         <div class="container">
-          <div class= "row">
+
+          <div class= "row form-group">
             <div class = "col-sm-6">
-              <div class="form-group">
-                <label for ="">Date</label>
-                <input class = "form-control" type="date" >
-              </div>
-            </div>
-
-
-            <div class ="col-sm-6">
-              <div class="form-group">
-                <label>Quantity Remaining</label>
-                <input  class="form-control" type= "text">
-              </div>
+              <label for ="">Date</label>
+              <input class = "form-control" type="date" >
             </div>
           </div>
+
+
+          <div class ="row form-group">
+            <div class="col-sm-6">
+              <label>Quantity Remaining</label>
+              <input  class="form-control" type= "text">
+            </div>
+          </div>
+          
           
           <!-- drop down select which is added dynamically when it is created -->
           
-          <div class="row">
-            <div class ="col-sm-6">
-              <div class="form-group">
-                <label>Mortality Quantity</label>
-                <input  class="form-control" type= "text">
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="form-group">
-                <label>Curent Quantity in Pond</label>
-                <input  class="form-control" type= "text" >
-              </div>
-            </div>
+        <div class="row form-group">
+          <div class ="col-sm-6">
+            <label>Mortality Quantity</label>
+            <input  class="form-control" type= "text">
           </div>
+        </div>
 
-          <div class="row">
-              <div class = "col-sm-6">
-                <div class="form-group">
-                  <select class="custom-select" >
-                    <option selected>Pond No.</option>
-                  </select>
-                </div>
-              </div>
-
-            <div class="col-sm-6">
-              <div class = "form-group">
-                <textarea  class="form-control" row ="3" type= "text" placeholder="Remarks..."></textarea>
-              </div>
+        <div class="row form-group">
+          <div class="col-sm-6">
+            <label>Current Quantity in Pond</label>
+            <input  class="form-control" type= "text" >
           </div>
+        </div>
+          
+
+        <div class="row form-group">
+            <div class = "col-sm-6">
+                <select class="custom-select" >
+                  <option selected>Pond No.</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-sm-6">
+            <div class = "form-group">
+              <label>Remarks...</label>
+              <textarea  class="form-control" row ="3" type= "text"></textarea>
+            </div>
+        </div>
+
+        <div>
+          <button type="submit" class=" saveButton btn btn-primary">Save</button>
+          <button type="submit" class=" cancelButton btn btn-default">Cancel</button>
+      </div>
         </div>
       </form>
     </section>
