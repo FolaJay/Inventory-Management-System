@@ -1,0 +1,133 @@
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-image: linear-gradient(#35938D, #46BB1D)!important;
+}
+
+th{
+    color:#26A0DA !important;
+}
+td{
+    color:#575757 !important;
+}
+.skin-blue .main-header .logo{
+    background-color: #314755 !important;
+
+}
+
+.user-panel > .info{
+    padding-left:30px !important;
+}
+menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
+    color:#fff !important;
+}
+.skin-blue .sidebar-menu>li.active>a{
+    color:#fff !important;
+    background-color:#314755 !important;
+    
+       
+}
+
+.skin-blue .sidebar-menu>li>a{
+    border:none !important;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 30px;
+}
+
+div .btn.invoice{
+    margin-top:50px !important;
+}
+
+.skin-blue .sidebar-menu>li.header{
+    background: none !important;
+    border-bottom: 1px dotted #96a9b6 !important;
+    color:#cccccc !important;
+    margin-bottom:10px !important;
+    padding-top:20px !important;
+}
+.skin-blue .main-header .navbar{
+    background-color: #314755 !important;
+}
+.skin-blue .sidebar a{
+    color:#fff !important;
+}
+.main-header .logo{
+    font-size:15px !important;   
+}
+.content-header > h1{
+    font-size:30px !important;
+}
+td button{
+    padding:5px 10px !important;
+    border-radius: 12px !important;
+}
+td button#edit{
+    background-color:#07ABB5 !important;
+    border-color:#07ABB5 !important;
+}
+.my-h1-tag{
+    font-size:30px;
+}
+.content-header{
+    padding-top:10px !important;
+    
+}
+.skin-blue .content-header{
+    background-color:#ffffff !important;
+    border-bottom: 1px dotted #96a9b6 !important;
+}
+.table-bordered{
+    border:none !important;
+    margin-top:0px !important;
+}
+div.myButtonWrapper{
+    margin-bottom:30px;
+    margin-left:15%;
+
+}
+button.my_Button{
+    border-radius: 0 !important;
+    background-color:#507993 !important;
+    color:#fff;
+    padding:5px 15px;
+
+}
+button.myBulkButton{
+    border-radius: 30px !important;
+    background-color:#07ABB5 !important;
+    border-color:#07ABB5 !important;
+    color:#fff;
+    padding:3px 17px;
+    margin-left:20px;
+    margin-top:10px;
+} 
+.table-bordered>thead>tr>th.my-Action-Button{
+    float:right !important;
+}
+.table-bordered>tbody>tr>td.my-Action-Button{
+    float:right !important;
+}
+div.myForm{
+    margin-left:20px !important;
+    padding-right:40px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border:none !important;
+}
+div.box{
+    background-color: #C3DBE6 !important;
+    padding-top:10px;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    background-color: #26A0DA !important;
+}
+.form-control{
+    display:inline !important;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-radius: 7px;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    margin-top: -20px !important;
+}
