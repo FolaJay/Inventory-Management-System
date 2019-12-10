@@ -233,7 +233,11 @@
           <div class = "col-sm-6">
             <div class="form-group">
               <label for ="">Transfer Type:</label>
-              <input class = "form-control" type="text" >
+              <select>
+                <option>select-transfer-type</option>
+                <option>Sorting</option>
+                <option>Stocking</option>
+              </select>
             </div>
           </div>
         </div>
@@ -294,9 +298,9 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <button class = "btn bnt-primary">Save</button>
-            <button class = "btn bnt-primary">Cancel</button>
-          </div>
+            <button type="submit" class=" saveButton btn btn-primary">Save</button>
+            <button type="submit" class=" cancelButton btn btn-default">Cancel</button>
+        </div>
         </div>
       </form>
     </section>
